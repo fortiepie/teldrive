@@ -1,5 +1,5 @@
 [db]
-  data-source = ""
+  data-source = "$DATABASE_URL"
   prepare-stmt = true
   log-level = 1
   [db.pool]
@@ -10,7 +10,7 @@
 
 [jwt]
   allowed-users = [""]
-  secret = ""
+  secret = "0be37f0194e860397fb99fa447bbc47d"
   session-time = "30d"
 
 [log]
@@ -22,8 +22,8 @@
   port = 8080
 
 [tg]
-  app-hash = ""
-  app-id = 0
+  app-hash = "b17c399efa6753c5823d525315bd1997"
+  app-id = 28013143
   app-version = "4.6.3 K"
   bg-bots-limit = 5
   device-model = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0"
